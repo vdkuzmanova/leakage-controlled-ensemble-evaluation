@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "leakage-controlled-ensemble-evaluation: code and results for 'Leakage-Controlled Evaluation of Ensemble Superiority Claims in Diabetes Risk Prediction'"
-version: "8.0.1"
+version: "1.0.0"
 date-released: 2026-10-06
 authors:
   - family-names: "Kuzmanova"
