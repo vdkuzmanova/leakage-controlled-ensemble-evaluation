@@ -1,0 +1,47 @@
+{
+  "DecisionTree": {
+    "params": {
+      "clf__max_depth": 7,
+      "clf__min_samples_leaf": 5
+    },
+    "chosen_in_folds": 51,
+    "of": 100
+  },
+  "LogisticRegression": {
+    "params": {
+      "clf__C": 0.1
+    },
+    "chosen_in_folds": 43,
+    "of": 100
+  },
+  "NeuralNetwork": {
+    "params": {
+      "clf__alpha": 0.0001
+    },
+    "chosen_in_folds": 77,
+    "of": 100
+  },
+  "RandomForest": {
+    "params": {
+      "clf__max_depth": 10,
+      "clf__min_samples_leaf": 1
+    },
+    "chosen_in_folds": 55,
+    "of": 100
+  },
+  "SVM": {
+    "params": {
+      "clf__C": 1
+    },
+    "chosen_in_folds": 67,
+    "of": 100
+  },
+  "XGBoost": {
+    "params": {
+      "clf__learning_rate": 0.1,
+      "clf__max_depth": 3
+    },
+    "chosen_in_folds": 41,
+    "of": 100
+  }
+}

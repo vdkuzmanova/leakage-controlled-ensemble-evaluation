@@ -1,0 +1,45 @@
+{
+  "selection_rule": "best single model by mean CV ROC-AUC among models with an exact SHAP explainer",
+  "selected_model": "RandomForest",
+  "top5_selected": [
+    "Glucose",
+    "BMI",
+    "Age",
+    "Insulin",
+    "Pregnancies"
+  ],
+  "top3_by_model": {
+    "LogisticRegression": [
+      "Glucose",
+      "Pregnancies",
+      "BMI"
+    ],
+    "RandomForest": [
+      "Glucose",
+      "BMI",
+      "Age"
+    ],
+    "XGBoost": [
+      "Glucose",
+      "BMI",
+      "Age"
+    ]
+  },
+  "agreement": {
+    "LogisticRegression vs RandomForest": {
+      "kendall_tau": 0.5714285714285714,
+      "p": 0.06101190476190476,
+      "top3_overlap": 2
+    },
+    "LogisticRegression vs XGBoost": {
+      "kendall_tau": 0.6428571428571428,
+      "p": 0.03115079365079365,
+      "top3_overlap": 2
+    },
+    "RandomForest vs XGBoost": {
+      "kendall_tau": 0.7857142857142856,
+      "p": 0.005505952380952381,
+      "top3_overlap": 3
+    }
+  }
+}

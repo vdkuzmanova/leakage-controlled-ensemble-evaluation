@@ -1,0 +1,21 @@
+{
+  "n_records": 768,
+  "n_groups": 768,
+  "n_duplicate_records": 0,
+  "pct_duplicate_records": 0.0,
+  "largest_group": 1,
+  "positive_rate": 0.349,
+  "missing_fraction": {
+    "Glucose": 0.0065,
+    "BloodPressure": 0.0456,
+    "SkinThickness": 0.2956,
+    "Insulin": 0.487,
+    "BMI": 0.0143
+  },
+  "dataset": "Pima Indians Diabetes Dataset",
+  "n_train": 614,
+  "n_holdout": 154,
+  "holdout_records_with_identical_copy_in_train": 0,
+  "repeats": 10,
+  "outer_folds": 10
+}
