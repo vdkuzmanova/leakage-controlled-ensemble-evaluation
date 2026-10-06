@@ -1,0 +1,25 @@
+{
+  "params": {
+    "DecisionTree": {
+      "clf__max_depth": 5,
+      "clf__min_samples_leaf": 5
+    },
+    "LogisticRegression": {
+      "clf__C": 0.1
+    },
+    "NeuralNetwork": {
+      "clf__alpha": 0.001
+    },
+    "RandomForest": {
+      "clf__max_depth": 10,
+      "clf__min_samples_leaf": 3
+    },
+    "SVM": {
+      "clf__C": 1
+    },
+    "XGBoost": {
+      "clf__learning_rate": 0.05,
+      "clf__max_depth": 3
+    }
+  }
+}

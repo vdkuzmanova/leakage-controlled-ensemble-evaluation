@@ -1,0 +1,15 @@
+{
+  "n_records": 251,
+  "n_groups": 251,
+  "n_duplicate_records": 0,
+  "pct_duplicate_records": 0.0,
+  "largest_group": 1,
+  "positive_rate": 0.6892,
+  "missing_fraction": {},
+  "dataset": "Early Stage Diabetes Risk Prediction Dataset",
+  "n_train": 201,
+  "n_holdout": 50,
+  "holdout_records_with_identical_copy_in_train": 0,
+  "repeats": 10,
+  "outer_folds": 10
+}

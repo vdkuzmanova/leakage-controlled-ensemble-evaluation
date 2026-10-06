@@ -1,0 +1,23 @@
+{
+  "protocol": "C_dedup",
+  "n": 251,
+  "n_train": 200,
+  "n_holdout": 51,
+  "holdout_rows_with_copy_in_train": 0,
+  "mean_cv_test_rows_with_copy_in_train": 0.0,
+  "best_single": "SVM",
+  "best_ensemble": "Stacking(RF+XGB->LR)",
+  "cv_auc_best_single": 0.9815934065934065,
+  "cv_auc_best_ensemble": 0.9742673992673992,
+  "wilcoxon_stat": 4.5,
+  "wilcoxon_p": 0.25,
+  "n_nonzero_fold_differences": 6,
+  "holdout_auc": {
+    "LogisticRegression": 0.9125,
+    "DecisionTree": 0.9375,
+    "RandomForest": 0.9625,
+    "SVM": 0.9643,
+    "XGBoost": 0.9589,
+    "NeuralNetwork": 0.9446
+  }
+}

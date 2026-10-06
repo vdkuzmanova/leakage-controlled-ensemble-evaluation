@@ -1,0 +1,38 @@
+{
+  "params": {
+    "DecisionTree": {
+      "clf__max_depth": 7,
+      "clf__min_samples_leaf": 5
+    },
+    "LogisticRegression": {
+      "clf__C": 1
+    },
+    "NeuralNetwork": {
+      "clf__alpha": 0.001
+    },
+    "RandomForest": {
+      "clf__max_depth": 10,
+      "clf__min_samples_leaf": 1
+    },
+    "SVM": {
+      "clf__C": 1
+    },
+    "XGBoost": {
+      "clf__learning_rate": 0.05,
+      "clf__max_depth": 5
+    }
+  },
+  "n_before_outlier_rejection": 1000,
+  "n_after_outlier_rejection": 874,
+  "features_kept": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "features_dropped": []
+}

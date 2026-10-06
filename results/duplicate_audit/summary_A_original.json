@@ -1,0 +1,23 @@
+{
+  "protocol": "A_original",
+  "n": 520,
+  "n_train": 416,
+  "n_holdout": 104,
+  "holdout_rows_with_copy_in_train": 72,
+  "mean_cv_test_rows_with_copy_in_train": 0.666,
+  "best_single": "RandomForest",
+  "best_ensemble": "Stacking(RF+XGB->LR)",
+  "cv_auc_best_single": 0.9973269230769232,
+  "cv_auc_best_ensemble": 0.9965865384615384,
+  "wilcoxon_stat": 4.5,
+  "wilcoxon_p": 0.5,
+  "n_nonzero_fold_differences": 5,
+  "holdout_auc": {
+    "LogisticRegression": 0.9891,
+    "DecisionTree": 0.9713,
+    "RandomForest": 1.0,
+    "SVM": 1.0,
+    "XGBoost": 1.0,
+    "NeuralNetwork": 0.9992
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "selection_rule": "best single model by mean CV ROC-AUC among models with an exact SHAP explainer",
+  "selected_model": "RandomForest",
+  "top5_selected": [
+    "Polyuria",
+    "Polydipsia",
+    "sudden weight loss",
+    "Gender",
+    "partial paresis"
+  ],
+  "top3_by_model": {
+    "LogisticRegression": [
+      "Polydipsia",
+      "Polyuria",
+      "Gender"
+    ],
+    "RandomForest": [
+      "Polyuria",
+      "Polydipsia",
+      "sudden weight loss"
+    ],
+    "XGBoost": [
+      "Polydipsia",
+      "Polyuria",
+      "Gender"
+    ]
+  },
+  "agreement": {
+    "LogisticRegression vs RandomForest": {
+      "kendall_tau": 0.5833333333333334,
+      "p": 0.001142618041952016,
+      "top3_overlap": 2
+    },
+    "LogisticRegression vs XGBoost": {
+      "kendall_tau": 0.75,
+      "p": 8.918489503496944e-06,
+      "top3_overlap": 3
+    },
+    "RandomForest vs XGBoost": {
+      "kendall_tau": 0.6666666666666667,
+      "p": 0.00013493716455180988,
+      "top3_overlap": 2
+    }
+  }
+}
