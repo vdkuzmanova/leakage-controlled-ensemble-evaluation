@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "leakage-safe-diabetes-eval-framework: code and results for 'Leakage-Controlled Evaluation of Ensemble Superiority Claims in Diabetes Risk Prediction'"
+version: "8.0.0"
+date-released: 2026-10-05
+authors:
+  - family-names: "Kuzmanova"
+    given-names: "Vanya Dimitrova"
+    affiliation: "Department of Informatics, University of Chemical Technology and Metallurgy (UCTM), Sofia, Bulgaria"
+    email: "vkuzmanova@uctm.edu"
+license: MIT
+repository-code: "https://github.com/vdkuzmanova/leakage-safe-diabetes-eval-framework"
+keywords:
+  - data leakage
+  - duplicate records
+  - repeated nested cross-validation
+  - ensemble learning
+  - diabetes prediction
+  - reproducibility
