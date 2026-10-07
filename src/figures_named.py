@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt, numpy as np, pandas as pd, shap, sys
 from sklearn.metrics import roc_curve, roc_auc_score
 from pipeline import load, holdout_split, tune_all, shap_values, ROOT, RANDOM_STATE
 NAMES = {"LogisticRegression": "Logistic Regression", "DecisionTree": "Decision Tree", "RandomForest": "Random Forest",
-         "SVM": "SVM", "XGBoost": "XGBoost", "NeuralNetwork": "Neural Network (MLP)", "Voting(RF+XGB)": "Voting (RF+XGB)",
+         "SVM": "SVM", "XGBoost": "XGBoost", "NeuralNetwork": "Multi-Layer Perceptron (MLP)", "Voting(RF+XGB)": "Voting (RF+XGB)",
          "Stacking(RF+XGB->LR)": "Stacking (RF+XGB→LR)", "Voting(all)": "Voting (five-model)",
          "Stacking(all->LR)": "Stacking (five-model→LR)"}
 STYLE = ["-", "--", "-.", ":"]
